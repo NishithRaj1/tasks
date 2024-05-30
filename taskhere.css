@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image:url('taskpic.jpg');
+    background-size: cover;
+    backdrop-filter: blur(4px);
+}
+
+#taskContainer {
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 20px; /* Adjust this value to match input box */
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in width */
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the background color and opacity */
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+#addtasks label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: large;
+    display: block;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+#addtasks input {
+    width: calc(100% - 40px); /* Subtract padding from width */
+    padding: 10px; /* Match padding with div */
+    border: 1px solid #ccc; /* Match input border with div border */
+    border-radius: 18px; /* Adjust to match div border radius */
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+#addtasks button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    padding: 10px; /* Match padding with div */
+    border: 1px solid #ccc; /* Match button border with div border */
+    border-radius: 18px; /* Adjust to match div border radius */
+}
